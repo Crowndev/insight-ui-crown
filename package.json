@@ -1,9 +1,14 @@
 {
-  "name": "insight-ui",
-  "description": "An open-source frontend for the Insight API. The Insight API provides you with a convenient, powerful and simple way to query and broadcast data on the bitcoin network and build your own services with it.",
-  "version": "0.4.0",
-  "repository": "git://github.com/bitpay/insight-ui.git",
+  "name": "insight-ui-crown",
+  "description": "An open-source frontend for the Insight API. The Insight API provides you with a convenient, powerful and simple way to query and broadcast data on the Crown network and build your own services with it.",
+  "author": "Crown Developers <info@crown.tech>",
+  "version": "0.0.0",
+  "repository": "git://github.com/Crowndev/insight-ui-crown.git",
   "contributors": [
+    {
+      "name": "BitPay",
+      "email": "dev@bitpay.com"
+    },
     {
       "name": "Matias Alejo Garcia",
       "email": "ematiu@gmail.com"
@@ -26,15 +31,15 @@
     }
   ],
   "bugs": {
-    "url": "https://github.com/bitpay/insight-ui/issues"
+    "url": "https://github.com/Crowndev/insight-ui-crown/issues"
   },
-  "homepage": "https://github.com/bitpay/insight-ui",
+  "homepage": "https://github.com/Crowndev/insight-ui-crown",
   "license": "MIT",
   "keywords": [
     "insight",
     "blockchain",
     "blockexplorer",
-    "bitcoin",
+    "crown",
     "bitcore",
     "front-end"
   ],
