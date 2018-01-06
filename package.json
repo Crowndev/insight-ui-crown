@@ -46,7 +46,7 @@
     "bitcore",
     "front-end"
   ],
-  "bitcoreNode": "bitcore-node",
+  "bitcoreNode": "bitcore-node-crown",
   "dependencies": {
   },
   "devDependencies": {
