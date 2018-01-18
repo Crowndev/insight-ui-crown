@@ -45,7 +45,7 @@ angular.module('insight.currency').controller('CurrencyController',
 
       if (currency === 'USD') {
         Currency.get({}, function(res) {
-          $rootScope.currency.factor = $rootScope.currency.coinmarketcap = res.data.exchangeRates.crw_usd;
+          $rootScope.currency.factor = $rootScope.currency.coinmarketcap = res.data.crw_usd;
         });
       } else if (currency === 'mCRW') {
         $rootScope.currency.factor = 1000;
@@ -58,7 +58,7 @@ angular.module('insight.currency').controller('CurrencyController',
 
     // Get initial value
     Currency.get({}, function(res) {
-      $rootScope.currency.factor = $rootScope.currency.coinmarketcap = res.data.exchangeRates.crw_usd;
+      $rootScope.currency.factor = $rootScope.currency.coinmarketcap = res.data.crw_usd;
     });
 
   });
