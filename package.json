@@ -47,9 +47,10 @@
     "front-end"
   ],
   "bitcoreNode": "bitcore-node-crown",
-  "dependencies": {
+  "scripts": {
+    "postinstall": "node_modules/.bin/bower install && node_modules/.bin/grunt compile"
   },
-  "devDependencies": {
+  "dependencies": {
     "bower": "~1.2.8",
     "grunt": "~0.4.2",
     "grunt-cli": "~0.1.11",
