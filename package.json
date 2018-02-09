@@ -2,7 +2,7 @@
   "name": "insight-ui-crown",
   "description": "An open-source frontend for the Insight API. The Insight API provides you with a convenient, powerful and simple way to query and broadcast data on the Crown network and build your own services with it.",
   "author": "Crown Developers <info@crown.tech>",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "publishConfig": {
     "tag": "next"
   },
