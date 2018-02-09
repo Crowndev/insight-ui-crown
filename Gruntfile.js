@@ -117,7 +117,7 @@ module.exports = function(grunt) {
   grunt.option('force', true);
 
   //Default task(s).
-  grunt.registerTask('default', ['watch']);
+  grunt.registerTask('default', ['compile']);
 
   //Update .pot file
   grunt.registerTask('translate', ['nggettext_extract']);
