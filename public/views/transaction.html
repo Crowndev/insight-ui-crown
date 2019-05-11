@@ -97,11 +97,11 @@
           </td>
         </tr>
         <tr data-ng-show="tx.isCoinStake">
-          <td><strong>Pointer Hash</strong></td>
+          <td><strong>Pointer</strong></td>
           <td class="text-muted text-right">
             <div class="ellipsis">
                 <span class="btn-copy ng-isolate-scope"></span>
-                <span class="ng-binding">{{tx.pointerHash}}</span>
+                <span class="ng-binding"><a href="tx/{{tx.pointerHash}}">{{tx.pointerHash}}</a></span>
             </div>
           </td>
         </tr>
