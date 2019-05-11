@@ -87,6 +87,24 @@
             </div>
           </td>
         </tr>
+        <tr data-ng-show="tx.isCoinStake">
+          <td><strong>Coinstake</strong></td>
+          <td class="text-muted text-right">
+            <div class="ellipsis">
+                <span class="btn-copy ng-isolate-scope"></span>
+                <span class="ng-binding">{{tx.vin[0].coinstake}}</span>
+            </div>
+          </td>
+        </tr>
+        <tr data-ng-show="tx.isCoinStake">
+          <td><strong>Pointer Hash</strong></td>
+          <td class="text-muted text-right">
+            <div class="ellipsis">
+                <span class="btn-copy ng-isolate-scope"></span>
+                <span class="ng-binding">{{tx.pointerHash}}</span>
+            </div>
+          </td>
+        </tr>
         </tbody>
       </table>
     </div>
